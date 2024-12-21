@@ -25,7 +25,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 # PROGRAM:
-
+```
 <!doctype html>
 <html>
 <head>
@@ -92,11 +92,15 @@ print("Your web server is running....")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
+```
 
 
 # OUTPUT:
-![image](https://github.com/user-attachments/assets/392ad67c-4d68-42af-9dbe-22fe90719127)
-![image](https://github.com/user-attachments/assets/0e6f263a-1eb4-426c-bc79-4c9130306eb2)
+
+![Screenshot 2024-12-21 151629](https://github.com/user-attachments/assets/9fdfb470-f92d-4c4f-b317-83c5f8a46049)
+
+![Screenshot 2024-12-21 151704](https://github.com/user-attachments/assets/5dd115b2-5380-4680-9d47-1ce422a481ff)
+
 
 
 
